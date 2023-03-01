@@ -1,44 +1,45 @@
-/* .hero{
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image:url(../images/ray-mallick-5J1bHRX1fNw-unsplash.jpg);
-    background-size:cover;
-    background-position: center;
+:root{
+  --dark: #374450;
+  --light: #fff;
 }
-figcaption{
-    display: block;
-} */
-/* img{
-    height: 100px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image:url(../images/ray-mallick-5J1bHRX1fNw-unsplash.jpg);
-    background-size:cover;
-    background-position: center; */
 
-.header{
-    padding:20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    background-color: darkslategray;
-    color: white;
-}
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
   }
 
+  /* made the container for header */
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #13293d;
-    color: #fff;
+    background-color: var(--dark);
+    color:var(--light);
   }
-  .nav
-  {
+
+  /* calling the nav to order links in a row by justifying content!*/
+  nav ul{
     display:flex;
-    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  /* changed the color of the nav links /
+  nav a{
+    color: #86d8d8;
+    font-weight: bold;
+  }
+  / added hover so that changes the nav color when curoser is hovering */
+  nav a:hover{
+    color: var(--light);
+  }
+  /* added the herobackground and targeted the img HT */
+  .hero-background >img{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size:cover;
+    background-position: center;
+    background-image: url("../images/background.jpg")
   }
