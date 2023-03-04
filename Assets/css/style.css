@@ -81,13 +81,13 @@ nav a:hover {
   padding-right: 30px;
 
 }
-
-.contactMe{
-  padding
-
-
+/* tackling the paragraph and moving it  */
+.aboutMe p{
+  position: relative;
+  margin-left: 20%;
+  margin-top: -8%;
 }
- 
+
 
 
 
