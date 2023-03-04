@@ -54,19 +54,7 @@ nav a:hover {
 
 }
 
-/* adds the box but not completely on the cover REVISIT NOT DONE */
-/* .hero-background > div{
-    margin-right: 75px;
-    position:fixed;
-    right:50px;
-    bottom:530px;
-    padding: 5px;
-    float: right;
-    box-sizing:border-box;
-    background-color: #86d8d8;
-    width: 20%;
-    height: 3%;
-    } */
+/* this adds the box to the cool subtitle here */
 .hero-background div {
   display: flex;
   flex-wrap: wrap;
@@ -80,22 +68,23 @@ nav a:hover {
   margin-right: 81%;
 }
 
- .container  h2  {
+/* added the inline block */
+.aboutMe h2{
+  position: relative;
+  width: 100px;
+  text-align: right;
   margin-left: 10%;
+  display:inline-block;
+  border-right: 4px solid blue;
+  min-height: 100px;
   font-size: 36px;
+  padding-right: 30px;
+
 }
-/*come back for the line  */
-/* .container:after  {
-  display:inline-block;
- border-right: 4px solid blue;
- min-height: 100px;
 
-} */
+.contactMe{
+  padding
 
-.aboutMe{
-  display:inline-block;
- border-right: 25px solid blue;
- min-height: 100px;
 
 }
  
